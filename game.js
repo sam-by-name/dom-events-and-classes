@@ -30,8 +30,8 @@ function hide (evt) {
 }
 
 function updateCounts () {
-  var dots = document.getElementsByClassName('board')[0].children
-  var totals = {
+  let dots = document.getElementsByClassName('board')[0].children
+  let totals = {
     blue: 0,
     green: 0,
     invisible: 0
